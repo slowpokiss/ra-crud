@@ -1,0 +1,51 @@
+
+
+.note-area {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+}
+
+.note-update-area {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-bottom: 35px;
+}
+
+.note-list-update {
+  width: 40px;
+  height: 40px;
+  background: url('https://cdn.icon-icons.com/icons2/510/PNG/512/refresh_icon-icons.com_50052.png') no-repeat center;
+  background-size: contain;
+  cursor: pointer;
+}
+
+.notes {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, calc(25% - 12px));
+  margin-bottom: 30px;
+  gap: 12px;
+}
+
+.note {
+  box-sizing: content-box;
+  height: auto;
+  padding: 30px;
+  border: 2px solid black;
+  position: relative;
+}
+
+.note-text {
+  word-wrap: break-word;
+}
+
+.note-del {
+  font-size: 26px;
+  position: absolute;
+  top: -6px;
+  right: 3px;
+  cursor: pointer;
+}

@@ -1,0 +1,97 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 60%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-area {
+  width: 100%;
+}
+
+.form-table {
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.form-table-headers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.form-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+
+.form-main-item {
+  width: fit-content;
+  height: 150px;
+  display: flex;
+  gap: 15px;
+}
+
+#form-main-textarea {
+  font-size: 18px;
+}
+
+.form-input {
+  height: 25px;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 5px 0 5px 7px;
+  font-size: 15px;
+}
+
+input.input-submit {
+  height: 35px;
+  width: 50px;
+  padding: 10px 10px;
+  cursor: pointer;
+  background: url('https://cdn-icons-png.flaticon.com/512/6492/6492707.png') no-repeat center;
+  background-size: contain;
+}
+
+.form-input:hover {
+  border-color: #8a8a8a;
+}
+
+.form-input:focus {
+  outline: none; 
+  border-color: #1770ff; 
+}
+
+.form-info {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 15px;
+  gap: 20px
+}
+
+.form-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.item-actions {
+  display: flex;
+  flex-direction: row;
+  gap: 7px;
+}
+
+.action {
+  cursor: pointer;
+}
